@@ -7,8 +7,8 @@
 #include "SPI.h"
 
 TaskHandle_t connectToWiFiHandler = NULL;
-const char *ssid = "Galaxy M01 Core2011";
-const char *password = "99299929123";
+const char *ssid = "xxxxxxxxxxxxxxx";
+const char *password = "xxxxxxxxxxxxx";
 String serverName = "http://192.168.43.10:4004/testingAPI";
 
 void writeFile(fs::FS &fs, const char * path, const char * message){
